@@ -10,7 +10,12 @@ namespace Calculator_v1
     {
         static void Main(string[] args)
         {
-            dawdadqd
+            qweqweqweqweqweqeweqweqwe
+                qweqweq
+                qweqwe
+                qweqweqw
+                eqwe
+                qwewq
         }
     }
 }
