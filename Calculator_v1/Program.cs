@@ -10,12 +10,7 @@ namespace Calculator_v1
     {
         static void Main(string[] args)
         {
-            qweqweqweqweqweqeweqweqwe
-                qweqweq
-                qweqwe
-                qweqweqw
-                eqwe
-                qwewq
+            Console.Write("Введите первое число: ");
         }
     }
 }
