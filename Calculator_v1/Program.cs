@@ -23,8 +23,7 @@ namespace Calculator_v1
             Console.Write("Введите номер операции (1-5): ");
             int choise = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Введите второе число: ");
-            double number2 = Convert.ToDouble(Console.ReadLine());
+          
 
 
             double result = 0.0;
@@ -32,21 +31,29 @@ namespace Calculator_v1
             switch(choise)
             {
                 case 1:
+                    Console.Write("Введите второе число: ");
+                    double number2 = Convert.ToDouble(Console.ReadLine());
                     result = number1 + number2;
                     break;
                 case 2:
-                    result = number1 - number2;
+                    Console.Write("Введите второе число: ");
+                    double number3 = Convert.ToDouble(Console.ReadLine());
+                    result = number1 - number3;
                     break;
                 case 3:
-                    result = number1 * number2;
+                    Console.Write("Введите второе число: ");
+                    double number4 = Convert.ToDouble(Console.ReadLine());
+                    result = number1 * number4;
                     break;
                 case 4:
-                    if (number2 == 0)
+                    Console.Write("Введите второе число: ");
+                    double number5 = Convert.ToDouble(Console.ReadLine());
+                    if (number5 == 0)
                     {
                         Console.WriteLine("Ошибка, нельзя делить на ноль");
                         return;
                     }
-                    result = number1 / number2;
+                    result = number1 / number5;
                     break;
                 case 5:
                     if (number1 < 0)
